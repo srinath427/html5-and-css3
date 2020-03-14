@@ -1,0 +1,115 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+
+}
+header
+{
+	background-image: url(/home/kmit/Downloads/project/css/bg1.jpg);
+	background-size: cover;
+	height: 100vh;
+
+}
+.main
+{
+	float: right;
+	margin-top: 10px;
+
+}
+.main li
+{
+	display: inline;
+	margin-right: 20px;
+
+
+}
+.main li a
+{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 17px
+}
+.main li a:hover
+{
+border-bottom: 2px solid black;
+}
+
+
+		body
+		{
+			color: black;
+			margin-bottom: 10px;
+		}
+.main-content
+{
+	position: absolute;
+	top: 87%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+h1
+{
+	word-spacing: 5px;
+	letter-spacing: 0.5px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+
+}
+.btn
+{
+	display: inline-block;
+	padding: 10px 30px;
+	text-decoration: none;
+	font-weight: lighter;
+	text-transform: uppercase;
+	border-radius: 200px;
+	transition: background-color 0.2s,border 0.2s,color 0.2s;
+
+
+}
+.btn-full
+{
+	background-color: transparent;
+	color: purple;
+	border:2px solid purple;
+
+
+}
+.btn-full:hover
+{
+	background-color:orange;
+
+}
+.btn-nav
+{
+	background-color: transparent;
+	color: purple;
+	border:2px solid purple;
+}
+.btn-nav:hover
+{
+	background-color:orange;
+
+}
+.colorchaange
+{
+	animation: colorchaangesri 1s infinite;
+}
+@keyframes colorchaangesri
+ {
+ 	0%
+ 	{
+   color: red;
+ 	}
+ 	25%{
+color: grey;
+ 	}
+ 	50%{
+color: lightgreen;
+ 	}
+ 	100%{
+
+ 	}
+ }
